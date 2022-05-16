@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
-<body>
+<body class="body">
     <!-- {Header with navigation and contacts} -->
     <header class="page-header">
             <div class="container container--navigation">
@@ -99,7 +99,7 @@
         <section class="section">
             <div class="container">
                 <div class="activity">
-                    <h2 class="activity__title">Чем мы занимаемся</h2>
+                    <h2 class="title">Чем мы занимаемся</h2>
                     <ul class="list">
                         <li class="activity__item">
                             <div class="activity__thumb">
@@ -133,7 +133,7 @@
         <section class="section section--team">            
             <div class="container">
                 <div class="team">
-                    <h2 class="team__title">Наша команда</h2>
+                    <h2 class="title">Наша команда</h2>
                     <ul class="list">
                         <li class="team__item">
                             <img class="team__image team__image--no-gap" src="./img/img-demyanenko.jpg" alt="продукт дизайнер Игорь Демьяненко"
@@ -292,44 +292,44 @@
         <section class="section">
             <div class="container">
                 <div class="clients">
-                    <h2 class="clients__title">Постоянные клиенты</h2>
+                    <h2 class="title clients__title">Постоянные клиенты</h2>
                     <ul class="list">
-                        <li class="client__item">
+                        <li class="clients__item">
                             <a class="clients__link" tabindex="1">
                                 <svg class="clients__icon">
                                     <use href="./img/symbol-defs.svg#icon-client-1"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="client__item">
+                        <li class="clients__item">
                             <a class="clients__link" tabindex="1">
                                 <svg class="clients__icon">
                                     <use href="./img/symbol-defs.svg#icon-client-2"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="client__item">
+                        <li class="clients__item">
                             <a class="clients__link" tabindex="1">
                                 <svg class="clients__icon">
                                     <use href="./img/symbol-defs.svg#icon-client-3"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="client__item">
+                        <li class="clients__item">
                             <a class="clients__link" tabindex="1">
                                 <svg class="clients__icon">
                                     <use href="./img/symbol-defs.svg#icon-client-4"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="client__item">
+                        <li class="clients__item">
                             <a class="clients__link" tabindex="1">
                                 <svg class="clients__icon">
                                     <use href="./img/symbol-defs.svg#icon-client-5"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="client__item">
+                        <li class="clients__item">
                             <a class="clients__link" tabindex="1">
                                 <svg class="clients__icon">
                                     <use href="./img/symbol-defs.svg#icon-client-6"></use>
@@ -401,7 +401,7 @@
                     </div>
                     <button type="submit" class="button subscription__button">Подписаться
                         <svg class="button__icon button__icon--end">
-                            <use href="../goit-markup-hw-06/img/experement.svg#icon-send">                                                     </use>
+                            <use href="./img/symbol-defs.svg#icon-send">                                                     </use>
                         </svg>
                     </button>
                 </form>
@@ -425,7 +425,7 @@
                             Имя
                             <input name="username" type="text" class="modal__input" placeholder=" ">
                             <svg class="modal__icon">
-                                <use href="../goit-markup-hw-06/img/experement.svg#icon-modal-person"></use>
+                                <use href="./img/symbol-defs.svg#icon-modal-person"></use>
                             </svg>
                         </label>
                     </li>
@@ -434,7 +434,7 @@
                             Телефон
                             <input name="tel" type="tel" class="modal__input" placeholder=" ">
                             <svg class="modal__icon">
-                                <use href="../goit-markup-hw-06/img/experement.svg#icon-modal-phone"></use>
+                                <use href="./img/symbol-defs.svg#icon-modal-phone"></use>
                             </svg>
                         </label>
                     </li>
@@ -443,7 +443,7 @@
                             Почта
                             <input name="mail" type="email" class="modal__input" placeholder=" ">
                             <svg class="modal__icon">
-                                <use href="../goit-markup-hw-06/img/experement.svg#icon-modal-email"></use>
+                                <use href="./img/symbol-defs.svg#icon-modal-email"></use>
                             </svg>
                         </label>
                     </li>
@@ -458,7 +458,7 @@
                             <input name="accord" type="checkbox" class="modal__checkbox">
                             <span class="modal__checkbox-frame">
                                 <svg class="modal__checkbox-icon">
-                                    <use href="../goit-markup-hw-06/img/experement.svg#icon-modal-check"></use>
+                                    <use href="./img/symbol-defs.svg#icon-modal-check"></use>
                                 </svg>
                             </span>
                             <span class="modal__label-text">Соглашаюсь с рассылкой и принимаю</span>
